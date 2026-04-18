@@ -104,4 +104,13 @@ Identify words associated with populist vs non-populist speech using the Global 
 
 ---
 
-## Pipeline Summary
+
+---
+
+## Quick Summary
+
+- `preprocess` → cleans data  
+- `tag` → assigns political labels  
+- `run_pipeline` → builds features (main script)  
+- `roberta_scoring` → model experiment  
+- `gpd_keyness` → lexicon validation  
